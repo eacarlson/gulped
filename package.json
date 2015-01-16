@@ -3,8 +3,15 @@
   "version": "1.0.0",
   "description": "Starter code for a hands-on gulp workshop.",
   "main": "",
-  "scripts": {
-  },
+  "scripts": {},
   "author": "Alan Languirand <alan@apprend.org>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-concat": "^2.4.3",
+    "gulp-htmlmin": "^1.0.0",
+    "gulp-less": "^2.0.1",
+    "gulp-serve": "^0.3.0",
+    "gulp-uglify": "^1.0.2"
+  }
 }
