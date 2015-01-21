@@ -8,3 +8,7 @@ gulp.task('scripts', function() {
       .pipe(uglify())
       .pipe(gulp.dest('./public/js'));
 })
+
+gulp.task('default', ['scripts'], function() {
+  console.log('love me some gulp');
+})
