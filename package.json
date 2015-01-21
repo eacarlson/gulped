@@ -7,6 +7,6 @@
   "author": "Alan Languirand <alan@apprend.org>",
   "license": "MIT",
   "devDependencies": {
-
+    "gulp": "^3.8.10"
   }
 }
