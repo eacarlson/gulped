@@ -1,5 +1,7 @@
 var gulp = require('gulp');
+var concat = require('gulp-concat');
 
 gulp.task('scripts', function() {
-    gulp.src('./src/js/*.js');
+    gulp.src('./src/js/*.js')
+      .pipe(concat('main.js');
 })
