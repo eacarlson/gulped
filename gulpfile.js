@@ -10,5 +10,5 @@ gulp.task('scripts', function() {
 })
 
 gulp.task('default', ['scripts'], function() {
-  console.log('love me some gulp');
+  gulp.watch('./src/js', ['scripts']);
 })
